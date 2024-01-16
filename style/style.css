@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1024px;
+    max-height: 7000px;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+/* header section style start  */
+
+:root {
+    --primary-color: #FF5400;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.head-info {
+    display: flex;
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.head-title {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.head-title img {
+    width: 50px;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.head-title h3 {
+    color: #424247;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 25px;
+
+}
+
+ul li {
+    list-style: none;
+
+}
+
+.top {
+
+    color: var(--primary-color);
+
+}
+
+.home {
+    color: var(--primary-color);
+}
+
+/* banner section style start  */
+.banner-info {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 830px;
+    height: 500px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+
+}
+
+.banner-para {
+    color: #FFF;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: normal;
+}
+
+.banner-btn {
+    border-radius: 8px;
+    background: #FFF;
+    width: 100px;
+    height: 42px;
+
+}
+
+.banner-btn a {
+    color: rgba(19, 19, 24, 0.50);
+    text-align: justify;
+    text-decoration: none;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 14px;
+    display: inline-block;
+}
+
+.banner-btn-gallery {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 57px;
+    height: 73px;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: antiquewhite;
+    width: 697px;
+    background: linear-gradient(60deg, rgba(232, 227, 227, 0.396) 0%, rgba(219, 219, 226, 0.349) 100%);
+    border-radius: 15px;
+}
