@@ -1,0 +1,215 @@
+@media only screen and (max-width:576px) {
+    .head-title{
+          width: 100%;
+         text-align: center;
+         justify-content: center;
+         
+    }
+    .header-container{
+        margin-left: 35px;
+        width: 100%;
+        
+    }
+
+    ul li.stop {
+        display:none;
+    }
+
+    .banner-container{
+        max-width: 420px;
+    }
+    .banner-info{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 380px;
+    height: 500px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    }
+    .banner-title{
+        font-size: 20px;
+      width: 420px;
+      height: 50px;
+      margin-left: -40px;
+     
+      margin-top: -30px;
+
+      padding: 10px;
+      
+    }
+    .banner-para{
+        padding: 0 20px;
+        line-height: 30px;
+    }
+    .banner-btn-gallery{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+        margin-left: 100px;
+
+    }
+  /* main section responsive start  */
+  .popular-info{
+    display: flex;
+    flex-direction: column;
+  }
+  .popular-left{
+    width: 350px;
+    margin: 0 auto;
+  }
+  .primary-btn{
+    margin-bottom: 20px;
+  }
+  .popular-right img{
+    width: 380px;
+    margin-left:30px;
+  }
+
+  /* your choose place section style start  */
+  .choose-para{
+    padding: 5px 30px;
+  }
+  .choose-info{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(1fr);
+  margin-left: 20px;
+  }
+  .choose-galarally{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1fr);
+    
+
+  }
+  .one{
+    display: grid;
+    gap: 20px;
+    grid-template-columns:1fr;
+    /* width: 400px; */
+  }
+  .two{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+
+  }
+  .two img{
+    width: 400px;
+  }
+  .three{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .three img{
+    width: 400px;
+  }
+
+ 
+  .img-title-t{
+    margin-left: 110px;
+    margin-top: 350px;
+
+  }
+  .img-title-th{
+    color: azure;
+    margin-left: 120px;
+  }
+  .img-title-fo{
+    color: aliceblue;
+    margin-top: 330px;
+    margin-left: 100px;
+  }
+  .img-title-fi{
+    margin-top: 610px;
+    margin-left: 130px;
+  }
+  .img-title-se{
+    margin-top: 350px;
+    margin-left: 110px;
+  }
+
+  /* triple box section style start  */
+ .box-info{
+  margin-left: 10px;
+ }
+  .box-para{
+    padding: 8px 20px;
+    padding-bottom: 20px;
+  }
+  .box-cont{
+    display: flex;
+    flex-direction: column;
+  }
+  .box-center{
+    margin-left: 0;
+
+    
+  }
+
+  /* discount section  */
+
+  .back-img{
+    width: 400px;
+  height: 500px;
+  margin-left: 20px;
+    background-size: cover;
+  }
+.back-img-med{
+  width: 400px;
+  height: 500px;
+  margin-left: 20px;
+  background-size: cover;
+}
+.back-front{
+  width: 300px;
+  height: 320px;
+  float: left;
+  margin-top: 150px;
+  margin-left: 40px;
+  
+}
+.back-front-med{
+  width: 300px;
+  height: 320px;
+  float: left;
+  margin-top: 150px;
+  margin-left: 40px;
+
+}
+
+/* frome section  */
+.frome-info{
+  display: flex;
+  flex-direction: column;
+}
+.f-left{
+  margin-left: 20px;
+  width: 400px;
+}
+.f-right{
+  margin-left: -5px;
+}
+.foot-info{
+  width: 400px;
+}
+.foot-title{
+  width: 300px;
+}
+.foot-para{
+  padding: 10px;
+}
+.main-foot{
+  width: 400px;
+  
+}
+.f-ic{
+  width: 400px;
+  float: left;
+}
+
+}
