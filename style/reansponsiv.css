@@ -1,4 +1,4 @@
-@media only screen and (max-width:576px) {
+@media screen and (max-width:576px) {
     .head-title{
           width: 100%;
          text-align: center;
@@ -13,6 +13,12 @@
 
     ul li.stop {
         display:none;
+    }
+    h1.icon-top i{
+      visibility: visible;
+     margin-top: 7px;
+
+
     }
 
     .banner-container{
@@ -194,22 +200,35 @@
 .f-right{
   margin-left: -5px;
 }
-.foot-info{
-  width: 400px;
-}
+
 .foot-title{
-  width: 300px;
+  padding: 20px;
 }
 .foot-para{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* optional section added */
+.op-box-info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ 
+}
+.op-main-para{
   padding: 10px;
 }
-.main-foot{
-  width: 400px;
+.op-box{
+  margin: 0 auto;
+}
+.optional{
+  height: 1750px;
   
 }
-.f-ic{
-  width: 400px;
-  float: left;
+.op-btn{
+  margin-left: 140px;
+  width: 200px;
 }
 
 }

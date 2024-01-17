@@ -85,11 +85,18 @@ ul li {
 .home {
     color: var(--primary-color);
 }
+h1.icon-top i {
+    color: black;
+    float: right;
+    /* margin-left: 10px; */
+    margin-top: -24px;
+    visibility: hidden;
+}
 
 /* banner section style start  */
 .banner-info {
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
-    width: 830px;
+    width: 870px;
     height: 500px;
     border-radius: 4px;
     background-repeat: no-repeat;
@@ -714,9 +721,10 @@ input[type="submit"] {
 
 /* footer  */
 .main-foot {
-    max-width: 1005px;
+    /* max-width: 1005px;
     min-width: 1004px;
-    max-width: 500px;
+    max-width: 500px; */
+    margin-top: 70px;
     background: rgba(19, 19, 24, 0.05);
 }
 
@@ -740,11 +748,100 @@ input[type="submit"] {
     font-size: 38px;
    
 }
+
+.f-ic i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .f-ic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+
+/* optional section style start  */
+.optional{
+    max-width: 850px;
+    height: 740px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.op-box-info{
+    display: flex;
+}
+
+.op-box{
+    width: 250px;
+    border-radius: 9px;
+    height: 450px;
+    margin-left: 20px;
+    margin-top: 10px;;
+    background-color: #FFF;
+    box-shadow: 0px 2px 10px 1px;
+}
+
+.op-box img{
+    width: 205px;
+    border-radius: 51%;
+    height: 52%;
+    margin-top: 19px;
+    margin-left: 21px;
+    border: 1px solid red;
+    padding: 30px;
+    transition:.5s;
+    cursor: pointer;
+}
+.op-box img:hover{
+    padding: 0px;
+    transform: scale(1.1);
+
+
+}
+.op-main-para{
+    color: rgba(19, 19, 24, 0.70);
     text-align: center;
-    margin-right: 30px;
-    display: block;
-    padding-left: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 5px 130px;
+    padding-bottom: 50px;
+}
+.op-main-title{
+    color: #131318;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: mulish;
     margin-top: 20px;
-    margin-bottom: 20px;
+}
+.op-title {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.op-para {
+    color: #5A5A5D;
+    margin-bottom: 10px;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.op-btn{
+        border-radius: 8px;
+        background: #FF5400;
+        width: 150px;
+        height: 45px;
+        border: 0;
+        color: #FFF;
+        margin-top: 20px;
+   
 }
